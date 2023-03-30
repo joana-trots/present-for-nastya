@@ -8,10 +8,10 @@ import Rules from './components/Rules';
 function App() {
   return (
     <Routes>
-      <Route path="/welcome" element={<Layout />} >
-        <Route index path='/welcome' element={<Welcome />}></Route>
-        <Route path='/welcome/rules' element={<Rules />}></Route>
-        <Route path='/welcome/form' element={<Form />}></Route>
+      <Route path="/present-for-nastya" element={<Layout />} >
+        <Route index path='/present-for-nastya' element={<Welcome />}></Route>
+        <Route path='/present-for-nastya/rules' element={<Rules />}></Route>
+        <Route path='/present-for-nastya/form' element={<Form />}></Route>
       </Route>
    </Routes>
   );
