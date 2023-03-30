@@ -1,0 +1,45 @@
+.form-page
+    background-image: url(../../assets/images/form-bg.jpg)
+    .alt-text--1
+        margin-bottom: 10px
+        margin-top: 0
+.caption,
+.contact-form
+    display: block
+.caption
+    margin-top: 30px
+.contact-form,
+.form-group
+    width: 250px
+    display: flex
+    flex-direction: column
+    text-align: left
+    margin: 0 auto
+.form-group
+    margin-bottom: 10px
+    &:nth-last-child(2)
+        margin-bottom: 18px
+    label
+        font-family: 'Caveat', cursive
+        font-size: 16px
+        margin-bottom: 1px
+        color: darkcyan
+    input:not(.btn), 
+    select,
+    textarea
+        padding: 8px
+        font-family: 'Comfortaa', cursive
+        font-size: .8em
+        border: 1px solid #83cacd
+        border-radius: 8px
+        background-color: rgba(246, 246, 246, 0.8)
+        outline: 0
+        &:invalid
+            border: 1px solid #c90000
+        &:focus
+            border: 1px solid #0d8286
+    textarea
+        font-size: .7em
+        height: 60px
+.display-none
+    display: none
