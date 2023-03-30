@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/present-for-nastya/static/css/main.75442171.css",
+    "main.js": "/present-for-nastya/static/js/main.0c5279dc.js",
+    "static/js/787.ec272023.chunk.js": "/present-for-nastya/static/js/787.ec272023.chunk.js",
+    "static/media/form-bg.jpg": "/present-for-nastya/static/media/form-bg.b73ed06a94b342af52e5.jpg",
+    "static/media/rules-bg.jpg": "/present-for-nastya/static/media/rules-bg.b9c0a554dcb2e8d8bea2.jpg",
+    "static/media/welcome-bg.jpg": "/present-for-nastya/static/media/welcome-bg.99edc08054889fcc17c0.jpg",
+    "static/media/btn-bg.svg": "/present-for-nastya/static/media/btn-bg.5573b6488efb3573f558.svg",
+    "index.html": "/present-for-nastya/index.html",
+    "main.75442171.css.map": "/present-for-nastya/static/css/main.75442171.css.map",
+    "main.0c5279dc.js.map": "/present-for-nastya/static/js/main.0c5279dc.js.map",
+    "787.ec272023.chunk.js.map": "/present-for-nastya/static/js/787.ec272023.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75442171.css",
+    "static/js/main.0c5279dc.js"
+  ]
+}
