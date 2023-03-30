@@ -11,6 +11,7 @@ const Rules = () => {
                 <p className='alt-text--1' style={{maxWidth: 230 + 'px', marginBottom: 18 + 'px'}}>Ты сможешь добавить <b>комментарий</b> со всеми пожеланиями, и я постараюсь их учесть.</p>
             </section>
             <Link to="/present-for-nastya/form" className="btn">→</Link>
+            <Link to="/present-for-nastya" className="btn btn--back">←</Link>
         </div>
     ) 
 }

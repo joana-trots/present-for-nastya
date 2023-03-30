@@ -1,6 +1,7 @@
 import './index.sass'
 import { useState } from 'react'
 import emailjs from '@emailjs/browser'
+import { Link } from 'react-router-dom'
 
 const Form = () => {
     const [responsed, setResponsed] = useState(false)
@@ -38,6 +39,7 @@ const Form = () => {
                     </div>
                     <div className="form-group">
                         <input type="submit" value="Едем!" className='btn btn--text' />
+                        <Link to="/present-for-nastya/rules" className="btn btn--back">←</Link>
                     </div>
                 </form>
             </section>
